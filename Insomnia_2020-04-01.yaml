@@ -1,0 +1,257 @@
+_type: export
+__export_format: 4
+__export_date: 2020-04-02T00:39:35.126Z
+__export_source: insomnia.desktop.app:v7.1.1
+resources:
+  - _id: req_4b4c2f32eb134ee5836af31dd4311e6e
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Ravex Equipamentos Automotivos LTDA",
+        	"email": "administrativo@ravex.com.br"
+        }
+    created: 1585777584062
+    description: ""
+    headers:
+      - id: pair_ba53c6e590f0412bb4739b97f03663f5
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1585640301268.5
+    method: POST
+    modified: 1585778276474
+    name: empresas
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/empresas
+    _type: request
+  - _id: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    created: 1585776822197
+    description: ""
+    modified: 1585776822197
+    name: Cantina Honesta - Firebase Functions
+    parentId: null
+    _type: workspace
+  - _id: req_6e06b8578db74500b95fa4f0b2c72f39
+    authentication: {}
+    body: {}
+    created: 1585779429355
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1585640301256
+    method: GET
+    modified: 1585783129251
+    name: empresas
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/empresas
+    _type: request
+  - _id: req_5754001e2b674ed7bc08546af0a355c6
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Café Capsula Nespresso papua new guinea Und",
+        	"quantidade": 20,
+        	"preco": 2
+        }
+    created: 1585779620885
+    description: ""
+    headers:
+      - id: pair_ba53c6e590f0412bb4739b97f03663f5
+        name: Content-Type
+        value: application/json
+      - description: ""
+        disabled: false
+        id: pair_7b64c04716c04732b5f6a61a32d9bee2
+        name: Authorization
+        value: ZcLFyNU4mF2QSjJQuAQq
+    isPrivate: false
+    metaSortKey: -1585640301243.5
+    method: POST
+    modified: 1585783119904
+    name: produtos
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/produtos
+    _type: request
+  - _id: req_b385b9c1805f41bf8c45ff286cc41a54
+    authentication: {}
+    body: {}
+    created: 1585781550702
+    description: ""
+    headers:
+      - description: ""
+        disabled: false
+        id: pair_7b64c04716c04732b5f6a61a32d9bee2
+        name: Authorization
+        value: ZcLFyNU4mF2QSjJQuAQq
+    isPrivate: false
+    metaSortKey: -1585640301231
+    method: GET
+    modified: 1585783048929
+    name: produtos
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/produtos
+    _type: request
+  - _id: req_5ee12af1c0f44e10bc4e712ced40105e
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Gabriel Vilar dos Santos",
+        	"email": "gabriel.santos@ravex.com.br"
+        }
+    created: 1585783354045
+    description: ""
+    headers:
+      - id: pair_ba53c6e590f0412bb4739b97f03663f5
+        name: Content-Type
+        value: application/json
+      - description: ""
+        disabled: false
+        id: pair_7b64c04716c04732b5f6a61a32d9bee2
+        name: Authorization
+        value: ZcLFyNU4mF2QSjJQuAQq
+    isPrivate: false
+    metaSortKey: -1585640301181
+    method: POST
+    modified: 1585783706728
+    name: compradores
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/compradores
+    _type: request
+  - _id: req_9dd4d52f33064b8992d16ec598a8aa2c
+    authentication: {}
+    body: {}
+    created: 1585783492279
+    description: ""
+    headers:
+      - description: ""
+        disabled: false
+        id: pair_7b64c04716c04732b5f6a61a32d9bee2
+        name: Authorization
+        value: ZcLFyNU4mF2QSjJQuAQq
+    isPrivate: false
+    metaSortKey: -1585640301131
+    method: GET
+    modified: 1585783498576
+    name: compradores
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/compradores
+    _type: request
+  - _id: req_07a643b0c0504537b267a04e5dabc724
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"data": "{% now 'iso-8601', '' %}",
+        	"total": 55,
+        	"produtos": [
+        	{
+            "id": "sfsMBLOjnIeTLfNxCb6Q",
+            "empresa": "ZcLFyNU4mF2QSjJQuAQq",
+            "nome": "Café Capsula Nespresso papua new guinea Und",
+            "preco": 2,
+            "quantidade": 10,
+        		"subTotal": 20
+          },
+          {
+            "id": "tPGb6QVsFQKZTyltjL1T",
+            "empresa": "ZcLFyNU4mF2QSjJQuAQq",
+            "nome": "Coca-Cola Lata 600ml",
+            "preco": 3.5,
+            "quantidade": 10,
+        		"subTotal": 35
+          }
+        	]
+        }
+    created: 1585785119571
+    description: ""
+    headers:
+      - id: pair_ba53c6e590f0412bb4739b97f03663f5
+        name: Content-Type
+        value: application/json
+      - description: ""
+        disabled: false
+        id: pair_7b64c04716c04732b5f6a61a32d9bee2
+        name: Authorization
+        value: ZcLFyNU4mF2QSjJQuAQq
+    isPrivate: false
+    metaSortKey: -1585640301081
+    method: POST
+    modified: 1585787273808
+    name: compras
+    parameters: []
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:5001/cantina-honesta-3355a/us-central1/api/compradores/QxCub44zB7eIhQAk8YZU/compras
+    _type: request
+  - _id: env_76c1b59b8780b1d25f24f4489f453a86a449155d
+    color: null
+    created: 1585776823035
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1585776823035
+    modified: 1585776823035
+    name: Base Environment
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    _type: environment
+  - _id: jar_76c1b59b8780b1d25f24f4489f453a86a449155d
+    cookies: []
+    created: 1585776823142
+    modified: 1585776823142
+    name: Default Jar
+    parentId: wrk_81c69589af2e4b3e86215cc56c7f15fe
+    _type: cookie_jar
